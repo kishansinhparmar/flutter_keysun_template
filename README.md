@@ -1,8 +1,11 @@
-# flutter_keysun_template
+# flutter keysun template
 
 ### How to build/run app flavor wise
 </br>
+
 [Ref. Link for flavoring flutter application](https://itnext.io/flutter-1-17-no-more-flavors-no-more-ios-schemas-command-argument-that-solves-everything-8b145ed4285d)
+
+</br>
 
 ![flutter run command variables](assets/flutter_run_command_parameters.png)
 
