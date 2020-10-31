@@ -38,7 +38,7 @@ class FlavorConfig {
     /// Getter for falvor environment
     MyEnvironments getFlavorEnvironment() {
       /// Read variable from environment
-      const environment = String.fromEnvironment('ENVIRONMENT');
+      const environment = String.fromEnvironment('env');
 
       switch (environment) {
         case "test":
