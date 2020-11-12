@@ -13,6 +13,22 @@
 
 flutter run --dart-define=env=dev --dart-define=APP_NAME=KeySunDev --dart-define=APP_SUFFIX=.dev
 
+flutter run --dart-define=env=dev --dart-define=APP_BUNDLE_ID=dev.keysun.flutterbaseapp --dart-define=APP_NAME=KeySunDev --dart-define=APP_SUFFIX=.dev
+
 ## Run or Build pro env
 
 flutter run --dart-define=env=prod --dart-define=APP_NAME=KeySunPro --dart-define=APP_SUFFIX=
+
+## String variable help
+
+### Pass Primary Bundleid
+--dart-define=APP_BUNDLE_ID=dev.keysun.v1
+
+### Which Flavor You Want
+--dart-define=env=dev
+
+### Pass App Name
+--dart-define=APP_NAME=KeySunV1
+
+### If you want to add suffix
+--dart-define=APP_SUFFIX=.dev

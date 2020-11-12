@@ -52,7 +52,8 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "dev.keysun.flutter_keysun_template"
+//        applicationId "dev.keysun.flutter_keysun_template"
+        applicationId dartEnvironmentVariables.APP_BUNDLE_ID
         applicationIdSuffix dartEnvironmentVariables.APP_SUFFIX
         minSdkVersion 16
         targetSdkVersion 29
