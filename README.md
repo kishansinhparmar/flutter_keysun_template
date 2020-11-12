@@ -30,5 +30,10 @@ Tools • Dart 2.10.3
 
 ```
 
+Build Runner
+```
+flutter packages pub run build_runner build --delete-conflicting-outputs
+```
+
 
 [Ref. Link for flavoring flutter application](https://itnext.io/flutter-1-17-no-more-flavors-no-more-ios-schemas-command-argument-that-solves-everything-8b145ed4285d)
