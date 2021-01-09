@@ -38,7 +38,7 @@ dependencies:
   hive: ^1.4.4+1
 
 #  Path provider
-  path_provider: ^1.6.24
+  path_provider: ^1.6.27
 
 #  Firebase core package
 #  firebase_core: ^0.5.0+1
@@ -47,16 +47,16 @@ dependencies:
 #  firebase_crashlytics: ^0.2.1+1
 
 #  Injection
-  get_it: ^5.0.1
+  get_it: ^5.0.3
 
 #  http package
   dio: ^3.0.10
 
 #  Internet Connectivity
-  connectivity_plus: ^0.5.0
+  connectivity_plus: ^0.7.1
 
 #  Device info
-  device_info_plus: ^0.5.0
+  device_info_plus: ^0.6.0
 
 #  Rules
   dartz: ^0.9.2
